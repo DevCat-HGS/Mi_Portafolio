@@ -1,6 +1,6 @@
 # Mi Portafolio
 
-¡Hola! Soy [DevCat], un analista y desarrollador de software apasionado por crear soluciones innovadoras.
+¡Hola! Soy DevCat, un analista y desarrollador de software apasionado por crear soluciones innovadoras.
 
 ## Habilidades
 - Lenguajes de programación: JavaScript, Python, TypeScript, C++, PHP, Dash.
