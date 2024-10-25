@@ -10,9 +10,9 @@
 
 ## 🚀Proyectos Destacados🌐
 
-### 📁Proyecto 1: Nombre del Proyecto
-Descripción breve del proyecto.  
-[Enlace al proyecto](link_del_proyecto)
+### 📁Proyecto 1: DevNetwork
+Espacio de trabajo de desarrolladores donde se gestionan Proyectos y se fomenta la colaboracion y el Crecimiento.  
+[Enlace Al Proyecto](https://github.com/DevCat-HGS/DevNetwork)
 
 ### 📁Proyecto 2: Nombre del Proyecto
 Descripción breve del proyecto.  
