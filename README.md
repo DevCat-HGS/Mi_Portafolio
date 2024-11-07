@@ -4,9 +4,9 @@
 
 ## 💻Habilidades🛠️ 
 - Lenguajes de programación: JavaScript, Python, TypeScript, C++, PHP, Dash.
-- Frameworks: React, Node.js, Django, Jquery.js, Next.js, Express.js, Vue.js, Three.js, Angular, Flutter.
+- Frameworks: React, Node.js, Django, Jquery.js, Next.js, Express.js, Vue.js, Three.js, Excel.js, Angular, Flutter.
 - Base de datos: MySQL, MongoDB, PostgreSQL.
-- Herramientas: Git, Github, GitLab, Scrum, RESTful APIs, Docker, Cursor, VsCode, SupaBase, FireBase.
+- Herramientas: Git, Github, GitLab, Scrum, RESTful APIs, Docker, Cursor, VsCode, SupaBase, FireBase, Heroku.
 
 ## 🚀Proyectos Destacados🌐
 
