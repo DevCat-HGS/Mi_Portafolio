@@ -1,0 +1,31 @@
+{
+    "name": "3d-portfolio",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "clean": "rm -rf dist node_modules",
+        "install-clean": "npm run clean && npm install"
+    },
+    "dependencies": {
+        "@emailjs/browser": "^4.4.1",
+        "@react-three/drei": "^9.115.0",
+        "@react-three/fiber": "^8.17.10",
+        "framer-motion": "^11.11.13",
+        "maath": "^0.10.8",
+        "react-router-dom": "^6.28.0",
+        "react-tilt": "^1.0.2",
+        "react-vertical-timeline-component": "^3.6.0",
+        "three": "^0.170.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.3",
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.14",
+        "vite": "^5.0.0"
+    }
+}
