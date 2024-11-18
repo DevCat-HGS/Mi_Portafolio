@@ -7,8 +7,10 @@
 - Frameworks para desarrollo web: Django, Next.js, Angular, Express.js, Node.js.
 - Frameworks para desarrollo móvil: Flutter, React Native.
 - Librerías para desarrollo de IA con Python: TensorFlow, PyTorch, scikit-learn, Keras, OpenCV, NLTK, SpaCy, Hugging Face Transformers, FastAI, Theano, Pandas, NumPy, Matplotlib, Seaborn.
-- Base de datos: MySQL, MongoDB, PostgreSQL.
-- Herramientas: Git, Github, GitLab, Scrum, RESTful APIs, Docker, Cursor, VsCode, SupaBase, FireBase, Heroku.
+- Librerías para desarrollo web: React, jQuery, Axios, Chart.js, D3.js, Lodash, Three.js, Bootstrap, Tailwind CSS, Moment.js, Redux, Styled Components, Emotion, Leaflet (para mapas interactivos), Socket.IO (para aplicaciones en tiempo real), GSAP (para animaciones avanzadas).
+Librerías para desarrollo móvil: Expo (para React Native), React Navigation, SQLite, Realm, Native Base, React Native Paper, Lottie (para animaciones), Alamofire (para iOS), Glide (para Android).
+- Bases de datos: MySQL, MongoDB, PostgreSQL, SQLite, Redis, Firebase Firestore, Oracle.
+- Herramientas y servicios: Git, GitHub, GitLab, VS Code, Postman, RESTful APIs, GraphQL,  Apache, AWS, Google Cloud, Heroku, Supabase, Firebase, Netlify, DigitalOcean.
 
 ## 🚀Proyectos Destacados🌐
 
