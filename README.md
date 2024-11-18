@@ -14,9 +14,9 @@
 Espacio de trabajo de desarrolladores donde se gestionan Proyectos y se fomenta la colaboracion y el Crecimiento.  
 [Enlace Al Proyecto](https://github.com/DevCat-HGS/DevNetwork)
 
-### 📁Proyecto 2: Nombre del Proyecto
-Descripción breve del proyecto.  
-[Enlace al proyecto](link_del_proyecto)
+### 📁Proyecto 2: Mi Amigo intimo
+Es tu acompañante y tu amigo el cual le puedes contar tus pro0blemas y el te ofrece terapia y ayuda emocional.  
+[Enlace al proyecto](https://github.com/DevCat-HGS/Mi-Amigo-Intimo)
 
 ## Proceso de Trabajo 📊
 
