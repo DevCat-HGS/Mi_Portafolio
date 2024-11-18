@@ -4,7 +4,9 @@
 
 ## 💻Habilidades🛠️ 
 - Lenguajes de programación: JavaScript, Python, TypeScript, C++, PHP, Dash.
-- Frameworks: React, Node.js, Django, Jquery.js, Next.js, Express.js, Vue.js, Three.js, Excel.js, Angular, Flutter.
+- Frameworks para desarrollo web: Django, Next.js, Angular, Express.js, Node.js.
+- Frameworks para desarrollo móvil: Flutter, React Native.
+- Librerías para desarrollo de IA con Python: TensorFlow, PyTorch, scikit-learn, Keras, OpenCV, NLTK, SpaCy, Hugging Face Transformers, FastAI, Theano, Pandas, NumPy, Matplotlib, Seaborn.
 - Base de datos: MySQL, MongoDB, PostgreSQL.
 - Herramientas: Git, Github, GitLab, Scrum, RESTful APIs, Docker, Cursor, VsCode, SupaBase, FireBase, Heroku.
 
