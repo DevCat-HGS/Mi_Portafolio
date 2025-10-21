@@ -34,7 +34,7 @@ const Contact = () => {
 
     try {
       // Usando Formspree como servicio estático para el formulario
-      const response = await fetch('https://formspree.io/f/mrbyvjod', {
+      const response = await fetch('https://formspree.io/f/xkgqaykp', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
