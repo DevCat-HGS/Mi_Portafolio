@@ -11,7 +11,10 @@
         "build": "vite build",
         "preview": "vite preview",
         "clean": "rm -rf dist node_modules",
-        "install-clean": "npm run clean && npm install"
+        "install-clean": "npm run clean && npm install",
+        "start": "node server.js",
+        "build:all": "npm run build && cd Email && npm install",
+        "start:all": "concurrently \"node server.js\" \"cd Email && npm run dev\""
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
@@ -21,6 +24,7 @@
         "dotenv": "^17.2.3",
         "express": "^5.1.0",
         "framer-motion": "^11.11.13",
+        "http-proxy-middleware": "^3.0.5",
         "maath": "^0.10.8",
         "nodemailer": "^7.0.9",
         "react-icons": "^5.5.0",
