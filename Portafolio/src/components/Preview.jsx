@@ -41,7 +41,7 @@ const Preview = ({ onContinue }) => {
         transition={{ delay: 0.2 }}
       >
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/DevCat-HGS"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-secondary transition-colors"
@@ -49,7 +49,7 @@ const Preview = ({ onContinue }) => {
           <FaGithub className="text-xl sm:text-2xl md:text-3xl" />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/harold-salgado-498a60354/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-secondary transition-colors"
