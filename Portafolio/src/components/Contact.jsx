@@ -33,10 +33,12 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('/api/email/send-email', {
+      // Usando Formspree como servicio estático para el formulario
+      const response = await fetch('https://formspree.io/f/mrbyvjod', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           name: form.name,
@@ -47,7 +49,7 @@ const Contact = () => {
 
       const data = await response.json();
       
-      if (data.success) {
+      if (response.ok) {
         setLoading(false);
         toast.success("Gracias. Me pondré en contacto contigo lo antes posible.", {
           position: "top-right",
@@ -65,7 +67,7 @@ const Contact = () => {
           message: "",
         });
       } else {
-        throw new Error(data.message || 'Error al enviar el mensaje');
+        throw new Error(data.error || 'Error al enviar el mensaje');
       }
     } catch (error) {
       setLoading(false);
