@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Soy un desarrollador de software habilidoso con experiencia en c++, python y
-        JavaScript, y experticia en frameworks como React, Node.js, y
-        Three.js. Soy un aprendiz rápido y colaboro estrechamente con clientes para
+        Soy un desarrollador de software habilidoso con experiencia en  Typescript, JavaScript, python y
+        c++, tengo experiencia manejando frameworks como React, Node.js, y
+        express. Soy un aprendiz rápido y colaboro estrechamente con clientes y compañeros de trabajo para
         crear soluciones eficientes, escalables, y amigables con el usuario que resuelven
         problemas del mundo real. ¡Vamos a trabajar juntos para dar vida a tus ideas!
       </motion.p>

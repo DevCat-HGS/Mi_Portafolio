@@ -5,7 +5,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "server": "node server.js",
+        "email": "cd Email && npm run dev",
+        "api": "cd Email && npm run dev",
+        "dev:all": "concurrently \"npm run dev\" \"npm run api\"",
         "build": "vite build",
         "preview": "vite preview",
         "clean": "rm -rf dist node_modules",
@@ -23,12 +25,15 @@
         "nodemailer": "^7.0.9",
         "react-router-dom": "^6.28.0",
         "react-tilt": "^1.0.2",
+        "react-toastify": "^11.0.5",
         "react-vertical-timeline-component": "^3.6.0",
+        "styled-components": "^6.1.19",
         "three": "^0.170.0"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.3",
         "autoprefixer": "^10.4.20",
+        "concurrently": "^8.2.2",
         "postcss": "^8.4.49",
         "tailwindcss": "^3.4.14",
         "vite": "^5.0.0"

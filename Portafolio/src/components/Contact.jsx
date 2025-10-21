@@ -1,13 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
-emailjs.init("eod6IStAcuVljVnuE");
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,37 +32,54 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log('Service ID:', import.meta.env.VITE_EMAILJS_RECEIVERID);
-    console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATEID);
-    console.log('User ID:', import.meta.env.VITE_EMAILJS_USERID);
-
     try {
-      await emailjs.send(
-        import.meta.env.VITE_EMAILJS_RECEIVERID,
-        import.meta.env.VITE_EMAILJS_TEMPLATEID,
-        {
-          from_name: form.name,
-          to_name: "DevCat",
-          from_email: form.email,
-          to_email: "prototiphs0108@gmail.com",
-          message: form.message,
+      const response = await fetch('http://localhost:3001/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        import.meta.env.VITE_EMAILJS_USERID
-      );
-
-      setLoading(false);
-      alert("Thank you. I will get back to you as soon as possible.");
-
-      setForm({
-        name: "",
-        email: "",
-        message: "",
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
       });
+
+      const data = await response.json();
+      
+      if (data.success) {
+        setLoading(false);
+        toast.success("Gracias. Me pondré en contacto contigo lo antes posible.", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          theme: "dark",
+        });
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        throw new Error(data.message || 'Error al enviar el mensaje');
+      }
     } catch (error) {
       setLoading(false);
       console.error(error);
 
-      alert("Ahh, something went wrong. Please try again.");
+      toast.error("Algo salió mal. Por favor, inténtalo de nuevo.", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        theme: "dark",
+      });
     }
   };
 
@@ -71,6 +87,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
