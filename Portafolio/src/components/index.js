@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Avatar from "./Avatar";
 import CoffeeLoader from "./CoffeeLoader";
+import Preview from "./Preview";
 
 
 export {
@@ -24,6 +25,7 @@ export {
   CanvasLoader,
   Avatar,
   CoffeeLoader,
+  Preview,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
