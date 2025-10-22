@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  python,
   redux,
   tailwind,
   nodejs,
@@ -82,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
