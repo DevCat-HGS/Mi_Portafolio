@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github, logo } from '../assets';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { hojaDeVida } from '../assets';
+import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 
 const Preview = ({ onContinue }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,7 +26,7 @@ const Preview = ({ onContinue }) => {
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-secondary"
+        className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-cuarto"
       >
         <img 
           src={profileImg} 
@@ -56,6 +57,13 @@ const Preview = ({ onContinue }) => {
         >
           <FaLinkedin className="text-xl sm:text-2xl md:text-3xl" />
         </a>
+        <a
+          href={hojaDeVida}
+          download="Harold_Salgado_CV.pdf"
+          className="text-white hover:text-secondary transition-colors"
+        >
+          <FaFileDownload className="text-xl sm:text-2xl md:text-3xl" />
+        </a>
       </motion.div>
       
       <motion.h1
@@ -83,7 +91,7 @@ const Preview = ({ onContinue }) => {
         transition={{ delay: 0.5 }}
       >
         <motion.div
-          className="h-full bg-secondary"
+          className="h-full bg-cuarto"
           initial={{ width: "0%" }}
           animate={{ width: isLoading ? "90%" : "100%" }}
           transition={{ duration: 2.5 }}
@@ -92,7 +100,7 @@ const Preview = ({ onContinue }) => {
       
       <motion.button
         onClick={onContinue}
-        className="py-2 px-6 sm:py-3 sm:px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary bg-secondary hover:bg-secondary-dark text-sm sm:text-base transition-colors"
+        className="py-2 px-6 sm:py-3 sm:px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary bg-cuarto hover:bg-cuarto-dark text-sm sm:text-base transition-colors"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6 }}
