@@ -32,7 +32,9 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import senacloud from "./senacloud.png";    
+import Cham from "./Chaman.png";
 import jobit from "./jobit.png";
+import CashWin from "./CashWin.png";
 import tripguide from "./tripguide.png";
 import hojaDeVida from "./hoja-de-vida.pdf";
 
@@ -67,7 +69,9 @@ export {
   tesla,
   carrent,
   senacloud,
+  Cham,
   jobit,
+  CashWin,
   tripguide,
 };
 export {hojaDeVida};

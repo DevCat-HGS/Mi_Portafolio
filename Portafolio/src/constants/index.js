@@ -15,6 +15,7 @@ import {
   mongodb,
   git,
   figma,
+  CashWin,
   docker,
   meta,
   starbucks,
@@ -22,6 +23,7 @@ import {
   shopify,
   carrent,
   senacloud,
+  Cham,
   jobit,
   tripguide,
   threejs,
@@ -226,29 +228,69 @@ const projects = [
       }, 
     ],
     image: senacloud,
-    source_code_link: "https://senacloud.netlify.app/", // "https://github.com/SenaCloud",
+    source_code_link: "https://github.com/DevCat-HGS/SenaCloud",
+    live_demo_link: "https://senacloud.netlify.app/",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Chaman Tarrot Dashboard",
+    description:
+      "Dashboard inteligente para servicios de tarot que utiliza IA para generar predicciones personalizadas. Integración completa con Make para automatización de procesos y Supabase para gestión de datos. Sistema automatizado para lecturas de tarot con análisis predictivo.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IA",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Make",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Automatización",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Cham,
+    source_code_link: "https://github.com/DevCat-HGS/chaman-web-dashboard",
+    live_demo_link: "https://github.com/DevCat-HGS/chaman-web-dashboard",
+  },
+  {
+    name: "CashWin",
+    description:
+      "Videojuego de apuestas multiplataforma desarrollado en Unity con C#. Implementa sistema de multijugador mediante Photon Pun 2, integración con pasarela de pago MercadoPago. Basado en el juego tradicional de dados con mecánicas de apuestas en tiempo real.",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Photon Pun 2",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "MercadoPago",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Multiplayer",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CashWin,
+    source_code_link: "https://github.com/DevCat-HGS/UnityCW",
+    live_demo_link: "https://github.com/DevCat-HGS/UnityCW",
+  },
   // {
   //   name: "Trip Guide",
   //   description:
