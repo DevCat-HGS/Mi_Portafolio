@@ -11,12 +11,14 @@ import {
   python,
   redux,
   tailwind,
+  farmacia,
   nodejs,
   mongodb,
   git,
   figma,
   CashWin,
   docker,
+  arduino,
   meta,
   starbucks,
   tesla,
@@ -290,6 +292,66 @@ const projects = [
     image: CashWin,
     source_code_link: "https://github.com/DevCat-HGS/UnityCW",
     live_demo_link: "https://github.com/DevCat-HGS/UnityCW",
+  },
+  {
+    name: "SensoresAPP",
+    description:
+      "Proyecto educativo realizado en Arduino para la prevención de inundaciones en pueblos cercanos. Sistema de advertencias tempranas que monitorea niveles de agua y condiciones ambientales para alertar a comunidades sobre riesgos de inundación.",
+    tags: [
+      {
+        name: "Arduino",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sensores",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "IoT",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Educación",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: arduino,
+    source_code_link: "https://github.com/DevCat-HGS/SensoresAPP",
+    live_demo_link: "https://github.com/DevCat-HGS/SensoresAPP",
+  },
+  {
+    name: "Farmacia Admin",
+    description:
+      "Sistema de administración y bodega para farmacias desarrollado a escala privada. Gestión completa de inventario de medicamentos, control de stock, ventas y reportes. Implementa autenticación segura y panel de administración para farmacéuticos.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Privado",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Inventario",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: farmacia,
+    source_code_link: "https://github.com/DevCat-HGS/Farmacia-Admin",
+    live_demo_link: "https://github.com/DevCat-HGS/Farmacia-Admin",
   },
   // {
   //   name: "Trip Guide",

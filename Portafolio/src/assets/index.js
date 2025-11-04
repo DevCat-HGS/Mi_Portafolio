@@ -33,6 +33,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import senacloud from "./senacloud.png";    
 import Cham from "./Chaman.png";
+import arduino from "./arduino.png";
+import farmacia from "./farmacia.png";
 import jobit from "./jobit.png";
 import CashWin from "./CashWin.png";
 import tripguide from "./tripguide.png";
@@ -50,8 +52,10 @@ export {
   menu,
   close,
   css,
+  arduino,
   docker,
   figma,
+  farmacia,
   git,
   html,
   javascript,
