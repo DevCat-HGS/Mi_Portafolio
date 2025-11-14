@@ -261,7 +261,7 @@ const projects = [
     ],
     image: Cham,
     source_code_link: "https://github.com/DevCat-HGS/chaman-web-dashboard",
-    live_demo_link: "https://github.com/DevCat-HGS/chaman-web-dashboard",
+    live_demo_link: "https://www.preguntalealchaman.com",
   },
   {
     name: "CashWin",
